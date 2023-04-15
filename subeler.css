@@ -1,0 +1,88 @@
+.sidenav img{
+    margin-left: 17px;
+  }
+  
+  .sidenav {
+      height:100%;/*Tam yükseklik: 'otomatik' yükseklik istiyorsanız bunu kaldırın*/
+      width: 210px; /* Kenar çubuğunun genişliğini ayarlama */
+      position: fixed; /* Sabit Kenar Çubuğu (kaydırmada, yerinde kal) */
+      z-index: 1; /* Üst Katmanda kalmak */
+      top: 0; /* En üstten menü oluştur */
+      left: 0;/* Soldan menü oluştur */
+      background-color: #27251F; /* Menü siyah renk olsun */
+      overflow-x: hidden; /* Yatay kaydırmayı devre dışı bırak */
+      padding-top: 20px;
+     }
+     
+     /* Gezinme menu linkleri */
+     
+     .sidenav a {
+       padding: 6px 8px 6px 16px;
+       text-decoration: none;
+       font-size: 30px;
+       font-family: 'Chivo Mono', monospace;;
+       color: #ffffff;
+       display: block;
+     }
+     
+     /* Gezinme bağlantılarının üzerine geldiğinizde renklerini değiştirin */
+     
+     .sidenav a:hover {
+       color: #DA291C;
+     }
+     
+     /* Stil sayfasi iceriği */
+   /* Yüksekliğin 450 pikselden az olduğu daha küçük ekranlarda 
+     kenar çubuğunun stilini değiştirin 
+     (daha az dolgu ve daha küçük yazı tipi boyutu) */
+     
+     @media screen and (max-height: 450px) {
+       .sidenav {padding-top: 15px;}
+       .sidenav a {font-size: 18px;}
+     }
+  
+  
+  body {
+   background-image: url("https://www.mcdonalds.com/content/dam/sites/uk/promo/desktopnfl/white-virtual-download.jpg");
+  
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 45% ;
+    margin-top: 2% ;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  th {
+    background-color: #DA291C;
+    color: white;
+    
+  }
+  
+  a {
+  
+    text-decoration: none;
+    color: #27251F
+   
+    
+  
+  }
+  
+  a:hover {
+  
+  
+    color:red
+  }
+  
+  
+  
